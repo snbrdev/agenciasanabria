@@ -1,0 +1,132 @@
+<!--
+  agenciasanabria.com
+  Todos los derechos reservados.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agencia Sanabria // productos paraguayos al mundo</title>
+<meta name="description" content="Agencia Sanabria — conectamos productos paraguayos con compradores en el extranjero. Importación, exportación y coordinación de flete de carga pesada.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://www.agenciasanabria.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.agenciasanabria.com/">
+<meta property="og:title" content="Agencia Sanabria — productos paraguayos al mundo">
+<meta property="og:description" content="Conectamos productos paraguayos con compradores en el extranjero. Importación, exportación y coordinación de flete de carga pesada.">
+<meta property="og:locale" content="es_PY">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo">Agencia <span class="accent">Sanabria</span></a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <a href="https://api.whatsapp.com/send?phone=595974429770&text=Hola%2C%20quiero%20consultar%20sobre%20exportar%2Fimportar%20con%20Agencia%20Sanabria." target="_blank" rel="noopener" class="btn btn--primary nav__cta">Hablar con un asesor</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__content">
+    <p class="eyebrow">COMERCIO EXTERIOR // LOGÍSTICA INTERNACIONAL</p>
+    <h1 class="hero__title">Llevamos productos paraguayos a compradores en el extranjero.</h1>
+    <p class="hero__subtitle">Conseguimos clientes internacionales para tu producción, gestionamos la importación y exportación, y coordinamos el flete de tu carga — para que tu empresa se enfoque en producir, no en trámites.</p>
+    <div class="hero__actions">
+      <a href="#contacto" class="btn btn--primary">Solicitar consulta</a>
+      <a href="#servicios" class="btn btn--outline">Ver servicios</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="section" id="servicios">
+  <p class="eyebrow">SERVICIOS</p>
+  <h2 class="section__title">De tu producción a un cliente en el extranjero.</h2>
+  <p class="section__lead">Acompañamos cada etapa: conseguir el comprador, gestionar la operación y coordinar el flete.</p>
+
+  <div class="cards cards--3">
+    <article class="card">
+      <span class="card__icon">01</span>
+      <h3 class="card__title">Desarrollo de Mercados Internacionales</h3>
+      <p class="card__text">Buscamos y gestionamos clientes en el extranjero interesados en productos paraguayos, y te conectamos directamente con ellos.</p>
+    </article>
+    <article class="card">
+      <span class="card__icon">02</span>
+      <h3 class="card__title">Importación y Exportación</h3>
+      <p class="card__text">Gestionamos y negociamos tus operaciones de importación y exportación, representando tus intereses ante proveedores y clientes internacionales.</p>
+    </article>
+    <article class="card">
+      <span class="card__icon">03</span>
+      <h3 class="card__title">Coordinación de Flete de Carga Pesada</h3>
+      <p class="card__text">Coordinamos el transporte de tu mercadería junto a una red de transportistas aliados especializados en carga pesada nacional e internacional.</p>
+    </article>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section class="section section--alt" id="nosotros">
+  <div class="about">
+    <div class="about__text">
+      <p class="eyebrow">NOSOTROS</p>
+      <h2 class="section__title">Parte del grupo SNBR E.A.S.</h2>
+      <p class="section__lead">Agencia Sanabria es el punto de expedición de comercio internacional del grupo SNBR E.A.S. — la misma estructura que respalda a snbr.dev y Eleven Center. Nos especializamos en abrir mercado para productos paraguayos en el extranjero, gestionando tu comercio exterior con la seriedad de una empresa constituida y la cercanía de un equipo que responde directamente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section" id="contacto">
+  <p class="eyebrow">CONTACTO</p>
+  <h2 class="section__title">Conversemos sobre tu operación.</h2>
+  <p class="section__lead">Contanos qué necesitás importar, exportar o coordinar — te respondemos directamente.</p>
+
+  <div class="contact">
+    <form class="contact__form" id="contactForm">
+      <label class="field">
+        <span>Nombre*</span>
+        <input type="text" id="fieldName" placeholder="Tu nombre" required>
+      </label>
+      <label class="field">
+        <span>Empresa</span>
+        <input type="text" id="fieldCompany" placeholder="Nombre de tu empresa (opcional)">
+      </label>
+      <label class="field">
+        <span>Mensaje*</span>
+        <textarea id="fieldMessage" rows="4" placeholder="Contanos qué necesitás" required></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary btn--block">Enviar por WhatsApp</button>
+    </form>
+
+    <div class="contact__info">
+      <div class="contact__item">
+        <span class="contact__label">WhatsApp</span>
+        <a href="https://api.whatsapp.com/send?phone=595974429770" target="_blank" rel="noopener">+595 974 429770</a>
+      </div>
+      <div class="contact__item">
+        <span class="contact__label">Email</span>
+        <a href="mailto:sac@agenciasanabria.com">sac@agenciasanabria.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>Agencia Sanabria — Punto de Expedición 003, SNBR E.A.S.</span>
+  <span>© 2026 Agencia Sanabria</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
